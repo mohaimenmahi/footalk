@@ -4,8 +4,8 @@ import {AppRegistry, View, FlatList, StyleSheet, Text, Linking } from 'react-nat
 export default class App extends React.Component {
   render() {
       return (
-          <View>
-              <Text style={styles.container}>Here is the free Live Streaming Links!</Text>
+          <View  style={styles.container}>
+              <Text>Here is the free Live Streaming Links!</Text>
               <FlatList
                   data={[
                       {name: 'Stream2Watch', key: 'https://www.stream2watch.org/soccer/'},
