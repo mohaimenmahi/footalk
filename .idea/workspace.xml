@@ -4,17 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/data/schedule.json" line="609" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5260ae2-d7c4-43c1-bc65-3cafe043994b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mohaimen.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/schedule.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MatchLinks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/footalk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="f5260ae2-d7c4-43c1-bc65-3cafe043994b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -36,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -48,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schedule.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="schedule.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/schedule.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7431">
+            <state relative-caret-position="-7365">
               <caret line="263" column="30" selection-start-line="263" selection-start-column="30" selection-end-line="263" selection-end-column="30" />
             </state>
           </provider>
@@ -87,7 +77,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -154,12 +144,12 @@
       <workItem from="1528055780088" duration="685000" />
       <workItem from="1528277024572" duration="23887000" />
       <workItem from="1528361151575" duration="2547000" />
-      <workItem from="1528368722967" duration="5398000" />
+      <workItem from="1528368722967" duration="6003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38488000" />
+    <option name="totallyTimeSpent" value="39093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1922" height="1025" extended-state="6" />
@@ -301,13 +291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/schedule.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7431">
-          <caret line="263" column="30" selection-start-line="263" selection-start-column="30" selection-end-line="263" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -315,6 +298,13 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/schedule.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7365">
+          <caret line="263" column="30" selection-start-line="263" selection-start-column="30" selection-end-line="263" selection-end-column="30" />
         </state>
       </provider>
     </entry>
