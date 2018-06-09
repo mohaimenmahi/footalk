@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import {AppRegistry, View, Text, ScrollView } from 'react-native';
+import {AppRegistry, View, Text } from 'react-native';
 import { createBottomTabNavigator, createStackNavigator } from 'react-navigation';
-import { ListItem } from 'react-native-elements';
-import schedule_json from './data/schedule.json'
+import ShowDate from './components/ShowDate';
+import ScheduleScreen from './components/ScheduleScreen';
 
 class HomeScreen extends Component {
     static navigationOptions = {
@@ -24,86 +24,6 @@ class HomeScreen extends Component {
     }
 }
 
-class ScheduleScreen extends Component {
-    constructor(props){
-        super(props);
-
-        this.state = {
-            title: ''
-        };
-    }
-    componentDidMount() {
-        return <ShowDate title={this.state.title}/>;
-    }
-    static navigationOptions = {
-        title: 'Schedule',
-        headerStyle: {
-            backgroundColor: '#9900ff'
-        },
-        headerTintColor: '#ffffff',
-        headerTitleStyle: {
-            fontWeight: 'bold'
-        }
-    };
-    render() {
-        return (
-            <View>
-                <ScrollView>
-                {
-                    schedule_json.map((item, i) => {
-                        this.setState({title: item.title});
-                        return (
-                            <ListItem
-                                key={i}
-                                leftAvatar={{source: {uri: item.avatar_url}}}
-                                title={item.title}
-                                onPress={() => this.props.navigation.navigate('Dates')}
-                            />
-                        );
-                    })
-                }
-                </ScrollView>
-            </View>
-        );
-    }
-}
-
-class ShowDate extends Component {
-    static navigationOptions = {
-        title: 'Match Dates',
-        headerStyle: {
-            backgroundColor: '#9900ff'
-        },
-        headerTintColor: '#ffffff',
-        headerTitleStyle: {
-            fontWeight: 'bold'
-        }
-    };
-    render() {
-        return (
-            <View>
-                <ScrollView>
-                {
-                    schedule_json.map((item, i) =>{
-                        if(item.title === this.props.title) {
-                            return (
-                                item.schedule.map((dd, i) => (
-                                    <ListItem
-                                        key={i}
-                                        leftAvatar={{source: {uri: item.avatar_url}}}
-                                        title={dd.date}
-                                    />
-                                ))
-                            );
-                        }
-                    })
-                }
-                </ScrollView>
-            </View>
-        );
-    }
-}
-
 const HomeStack = createStackNavigator(
     {
         Home: { screen: HomeScreen }
@@ -112,7 +32,7 @@ const HomeStack = createStackNavigator(
 
 const ScheduleStack = createStackNavigator(
     {
-        Schedule: { screen: ScheduleScreen},
+        Schedule: { screen: ScheduleScreen },
         Dates: { screen: ShowDate }
     }
 );
