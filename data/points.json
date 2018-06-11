@@ -1,0 +1,82 @@
+{
+  "in_game": {
+    "label": "Playing in Game",
+    "point": 1
+  },
+  "60_mins": {
+    "label": "Playing atleast 60 minutes in a game",
+    "point": 2
+  },
+  "goal_gk": {
+    "label": "Goal scored by a Goalkeeper",
+    "point": 6
+  },
+  "goal_def": {
+    "label": "Goal scored by a Defender",
+    "point": 6
+  },
+  "goal_mid": {
+      "label": "Goal scored by a Midfielder",
+      "point": 5
+  },
+  "goal_fwd": {
+    "label": "Goal scored by a Forward",
+    "point": 4
+  },
+  "assist": {
+    "label": "For each assist",
+    "point": 3
+  },
+  "gk_not_conceding": {
+    "label": "Goalkeeper not conceding while on pitch",
+    "point": 4
+  },
+  "def_not_conceding": {
+    "label": "Defender not conceding while on pitch",
+    "point": 4
+  },
+  "mid_not_conceding": {
+    "label": "Midfielder not conceding while on pitch",
+    "point": 1
+  },
+  "penalty": {
+    "label": "Earning a penalty",
+    "point": 2
+  },
+  "conceding_penalty": {
+    "label": "Conceding a penalty",
+    "point": -1
+  },
+  "penalty_miss": {
+    "label": "Penalty miss",
+    "point": -2
+  },
+  "penalty_save": {
+    "label": "Penalty save",
+    "point": 5
+  },
+  "conceded_gk": {
+    "label": "For every two goals conceded by a goalkeeper",
+    "point": -1
+  },
+  "conceded_def": {
+    "label": "For every two goals conceded by a defender",
+    "point": -1
+  },
+  "yellow": {
+    "label": "Yellow card",
+    "point": -1
+  },
+  "red": {
+    "label": "Red card",
+    "point": -3
+  },
+  "gk_three_saves": {
+    "label": "Every three saves made by a goalkeeper",
+    "point": 1
+  },
+  "own_goal": {
+    "label": "Own goal scored",
+    "point": -2
+  }
+}
