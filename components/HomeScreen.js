@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { AppRegistry, View, Text } from 'react-native';
+import { AppRegistry, View, Text, Button } from 'react-native';
 
 export default class HomeScreen extends React.Component {
     static navigationOptions = {
@@ -14,8 +14,17 @@ export default class HomeScreen extends React.Component {
     };
     render() {
         return (
-            <View style={{justifyContent: 'center', alignItems: 'center'}}>
-                <Text>This is Footalk Home</Text>
+            <View>
+                <View style={{flexDirection: 'row'}}>
+                    <Text style={{fontSize: 20}}>Next match: </Text>
+                </View>
+                <View style={{flexDirection: 'row'}}>
+                    <Text style={{fontSize: 20}}>Live event!</Text>
+                    <Button
+                        title="Comment now"
+                        onPress={() => this.props.navigation.navigate('Comment')}
+                    />
+                </View>
             </View>
         );
     }

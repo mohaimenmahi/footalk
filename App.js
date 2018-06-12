@@ -5,10 +5,12 @@ import ShowDate from './components/ShowDate';
 import ScheduleScreen from './components/ScheduleScreen';
 import MatchDetails from './components/MatchDetails';
 import HomeScreen from './components/HomeScreen';
+import CommentPage from './components/CommentPage';
 
 const HomeStack = createStackNavigator(
     {
-        Home: { screen: HomeScreen }
+        Home: { screen: HomeScreen },
+        Comment: { screen: CommentPage }
     }
 );
 
