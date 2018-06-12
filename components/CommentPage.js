@@ -1,12 +1,28 @@
 import * as React from 'react';
-import { View, AppRegistry, TextInput, ScrollView } from 'react-native';
+import { View, AppRegistry, TextInput, ScrollView, Button, Text } from 'react-native';
 
 export default class CommentPage extends React.Component {
     constructor(props) {
         super(props);
+
+        this.onHandleChange = this.onHandleChange.bind(this);
+        this.onHandleSubmit = this.onHandleSubmit.bind(this);
+
         this.state = {
-            newComment: ''
+            newComment: '',
+            comments: []
         };
+    }
+    onHandleChange(e) {
+        this.setState({ newComment: e.target.value });
+    }
+    onHandleSubmit(e) {
+        e.preventDefault();
+        let comment = this.state.newComment;
+        this.setState({ newComment: ' '}); // after submitting, the textfield will be empty
+        let newArr = this.state.comments.slice();
+        newArr.push(comment); // pushing a new comment on the comments[] state
+        this.setState({comments: newArr});
     }
     static navigationOptions = {
         title: 'Comment',
@@ -25,8 +41,15 @@ export default class CommentPage extends React.Component {
                     <TextInput
                         placeholder="Write something"
                         style={{height: 80}}
-                        onChangeText={(text) => this.setState({newComment: text })}
+                        onChange={() => this.onHandleChange}
                     />
+                    <Button
+                        title="Submit"
+                        onPress={() => this.onHandleSubmit}
+                    />
+                    {
+                        this.state.comments.map((com, i) => <Text key={i}>{com}</Text>) // showing new + previous comment. this would be in the top of the page
+                    }
                 </View>
             </ScrollView>
         );
