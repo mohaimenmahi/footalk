@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { AppRegistry, View, ScrollView } from 'react-native';
 import { ListItem } from 'react-native-elements';
-import schedule_json from '../data/schedule.json'
+import ScheduleJson from '../data/schedule.json'
 
 export default class ShowDate extends React.Component {
     static navigationOptions = {
@@ -19,19 +19,19 @@ export default class ShowDate extends React.Component {
             <View>
                 <ScrollView>
                     {
-                        ScheduleJson.forEach((item) => {
-                            if(item.id === this.props.id ) {
+                        ScheduleJson.map((item) => {
+                            return (
                                 item.schedule.map((dd, i) => {
                                     return (
                                         <ListItem
                                             key={i}
                                             leftAvatar={{source: {uri: item.avatar_url}}}
                                             title={dd.date}
-                                            onPress={() => this.props.navigation.navigate('MatchDetails')}
+                                            onPress={() => this.props.navigation.navigate('Details')}
                                         />
                                     );
                                 })
-                            }
+                            );
                         })
                     }
                 </ScrollView>

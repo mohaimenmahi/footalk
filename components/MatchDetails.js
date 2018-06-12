@@ -16,10 +16,6 @@ export default class MatchDetails extends React.Component {
         return (
             <View>
                 <Text>There will be details</Text>
-                <Button
-                    title="Back to Home"
-                    onPress={() => this.props.navigation.navigate('Home')}
-                />
             </View>
         );
     }

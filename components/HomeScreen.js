@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { AppRegistry, View } from 'react-native';
+import { AppRegistry, View, Text } from 'react-native';
 
 export default class HomeScreen extends React.Component {
     static navigationOptions = {
