@@ -4,16 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/data/schedule.json" line="610" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5260ae2-d7c4-43c1-bc65-3cafe043994b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/HomeScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MatchDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MatchDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ScheduleScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ScheduleScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ShowDate.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ShowDate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/schedule.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/schedule.json" afterDir="false" />
-    </list>
+    <list default="true" id="f5260ae2-d7c4-43c1-bc65-3cafe043994b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
