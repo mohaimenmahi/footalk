@@ -3,4 +3,5 @@ node_modules/**/*
 npm-debug.*
 yarn-error.log
 yarn.lock
-/data/copy.json
+data/copy.json
+.idea/*
