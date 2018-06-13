@@ -26,7 +26,11 @@ export default class ScheduleScreen extends React.Component {
                                     key={i}
                                     leftAvatar={{source: {uri: item.avatar_url}}}
                                     title={item.title}
-                                    onPress={() => this.props.navigation.navigate('Dates')}
+                                    onPress={() => {
+                                        this.props.navigation.navigate('Dates', {
+                                            itemId: i,
+                                        });
+                                    }}
                                 />
                             );
                         })

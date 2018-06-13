@@ -15,23 +15,28 @@ export default class ShowDate extends React.Component {
         }
     };
     render() {
+        const { navigation } = this.props;
+        const itemId = navigation.getParam('itemId', 'NO-ID');
         return (
             <View>
                 <ScrollView>
                     {
-                        ScheduleJson.map((item) => {
-                            return (
-                                item.schedule.map((dd, i) => {
-                                    return (
-                                        <ListItem
-                                            key={i}
-                                            leftAvatar={{source: {uri: item.avatar_url}}}
-                                            title={dd.date}
-                                            onPress={() => this.props.navigation.navigate('Details')}
-                                        />
-                                    );
-                                })
-                            );
+                        ScheduleJson.map((item, idx) => {
+                            if(JSON.stringify(itemId) === idx) {
+                                return (
+                                    item.schedule.map((dd, i) => {
+                                        return (
+                                            <ListItem
+                                                key={i}
+                                                leftAvatar={{source: {uri: item.avatar_url}}}
+                                                title={dd.date}
+                                                onPress={() => this.props.navigation.navigate('Details')}
+                                            />
+                                        );
+                                    })
+                                );
+                            }
+
                         })
                     }
                 </ScrollView>
