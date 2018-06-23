@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { AppRegistry, View, Text, Button } from 'react-native';
+import { AppRegistry, View, Text, Button, ScrollView } from 'react-native';
 
 export default class MatchDetails extends React.Component {
     static navigationOptions = {
@@ -13,9 +13,21 @@ export default class MatchDetails extends React.Component {
         }
     };
     render() {
+        const { navigation } = this.props;
+        const otherParam = navigation.getParam('otherParam', []);
         return (
             <View>
-                <Text>There will be details</Text>
+                <ScrollView>
+                    {
+                        otherParam.map((item) => {
+                            return (
+                                <View>
+                                    <View>{item.group}</View>
+                                </View>
+                            );
+                        })
+                    }
+                </ScrollView>
             </View>
         );
     }

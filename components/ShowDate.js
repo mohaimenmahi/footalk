@@ -22,7 +22,7 @@ export default class ShowDate extends React.Component {
                 <ScrollView>
                     {
                         ScheduleJson.map((item, idx) => {
-                            if(JSON.stringify(itemId) === idx) {
+                            if(itemId === idx) {
                                 return (
                                     item.schedule.map((dd, i) => {
                                         return (
@@ -30,7 +30,9 @@ export default class ShowDate extends React.Component {
                                                 key={i}
                                                 leftAvatar={{source: {uri: item.avatar_url}}}
                                                 title={dd.date}
-                                                onPress={() => this.props.navigation.navigate('Details')}
+                                                onPress={() => this.props.navigation.navigate('Details', {
+                                                    otherParam: dd.matches,
+                                                })}
                                             />
                                         );
                                     })
