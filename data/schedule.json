@@ -1,0 +1,867 @@
+[
+  {
+    "id": 0,
+    "title": "Group Stage",
+    "schedule": [
+      {
+        "date": " Thursday 14 June",
+        "matches": [
+          {
+              "group": "Group A",
+              "team1": "Russia",
+              "flag1": "https://cdn.britannica.com/42/3842-004-C238EDD3.jpg",
+              "team2": "Saudi Arabia",
+              "flag2": "http://flagpedia.net/data/flags/big/sa.png",
+              "time": 1528988400,
+              "place": "Luzhniki Stadium, Moscow",
+              "lattitude": "55.7158°",
+              "longitude": "37.5537°"
+          }
+        ]
+      },
+      {
+        "date": "Friday 15 June",
+        "matches": [
+          {
+              "group": "Group A",
+              "team1": "Egypt",
+              "flag1": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/255px-Flag_of_Egypt.svg.png",
+              "team2": "Uruguay",
+              "flag2": "http://flags.fmcdn.net/data/flags/w580/uy.png",
+              "time": 1529064000,
+              "place": "Ekaterinburg",
+              "lattitude": "56.8389°",
+              "longitude": "60.6057°"
+          },
+          {
+              "group": "Group B",
+              "team1": "Morocco",
+              "flag1": "https://libertyflagandbanner.com/wp-content/uploads/2015/08/morocco-flag.jpg",
+              "team2": "Iran",
+              "flag2": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_Iran_%28official%29.svg/2000px-Flag_of_Iran_%28official%29.svg.png",
+              "time": 1529074800,
+              "place": "St Petersburg",
+              "lattitude": "59.9343°",
+              "longitude": "30.3351°"
+          },
+          {
+              "group": "Group B",
+              "team1": "Portugal",
+              "flag1": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/255px-Flag_of_Portugal.svg.png",
+              "team2": "Spain",
+              "flag2": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png",
+              "time": 1529085600,
+              "place": "Sochi",
+              "lattitude": "43.6028°",
+              "longitude": "39.7342°"
+          }
+        ]
+      },
+      {
+        "date": "Saturday 16 June",
+        "matches": [
+          {
+              "group": "Group C",
+              "team1": "France",
+              "flag1": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/255px-Flag_of_France.svg.png",
+              "team2": "Australia",
+              "flag2": "https://upload.wikimedia.org/wikipedia/en/b/b9/Flag_of_Australia.svg",
+              "time": 1529143200,
+              "place": "Kazan",
+              "lattitude": "55.8304°",
+              "longitude": "49.0661°"
+          },
+          {
+              "group": "Group D",
+              "team1": "Argentina",
+              "flag1": "http://nationalflagstore.com/wp-content/uploads/2014/07/argentina-flag1.jpg",
+              "team2": "Iceland",
+              "flag2": "http://flags.fmcdn.net/data/flags/w580/is.png",
+              "time": 1529154000,
+              "place": "Moscow (Spartak)",
+              "lattitude": "55.7558°",
+              "longitude": "37.6173°"
+          },
+          {
+              "group": "Group C",
+              "team1": "Peru",
+              "flag1": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/2000px-Flag_of_Peru_%28state%29.svg.png",
+              "team2": "Denmark",
+              "flag2": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/2000px-Flag_of_Denmark.svg.png",
+              "time": 1529164800,
+              "place": "Saransk",
+              "lattitude": "54.2000°",
+              "longitude": "45.1745°"
+          },
+          {
+              "group": "Group D",
+              "team1": "Croatia",
+              "flag1": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/2000px-Flag_of_Croatia.svg.png",
+              "team2": "Nigeria",
+              "flag2": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/2000px-Flag_of_Nigeria.svg.png",
+              "time": 1529175600,
+              "place": "Kaliningrad",
+              "lattitude": "54.7104°",
+              "longitude": "20.4522°"
+          }
+        ]
+      },
+      {
+        "date": "Sunday 17 June",
+        "matches": [
+          {
+              "group": "Group E",
+              "team1": "Costa Rica",
+              "flag1": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/2000px-Flag_of_Costa_Rica_%28state%29.svg.png",
+              "team2": "Serbia",
+              "flag2": "http://flagpedia.net/data/flags/ultra/rs.png",
+              "time": 1529236800,
+              "place": "Samara",
+              "lattitude": "53.2415°",
+              "longitude": "50.2212°"
+          },
+          {
+              "group": "Group F",
+              "team1": "Germany",
+              "flag1": "http://flags.fmcdn.net/data/flags/w580/de.png",
+              "team2": "Mexico",
+              "flag2": "https://cdn3.bigcommerce.com/s-ey7tq/products/3421/images/4744/FIMEX-2__96295.1407858956.380.380.jpg?c=2",
+              "time": 1529247600,
+              "place": "Moscow (Luzhniki)",
+              "lattitude": "55.7158°",
+              "longitude": "37.5537°"
+          },
+          {
+              "group": "Group E",
+              "team1": "Brazil ",
+              "flag1": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
+              "team2": "Switzerland",
+              "flag2": "https://static.webshopapp.com/shops/031683/files/069009574/image.jpg",
+              "time": 1529258400,
+              "place": "Rostov-on-Don",
+              "lattitude": "47.2357°",
+              "longitude": "39.7015°"
+          }
+        ]
+      },
+      {
+        "date": "Monday 18 June",
+        "matches": [
+          {
+              "group": "Group F",
+              "team1": "Sweden",
+              "flag1": "https://static.wixstatic.com/media/71a137_ffeb15d383bc4899b80a62da2a51a151.jpg/v1/fill/w_498,h_339,al_c,q_90/file.jpg",
+              "team2": "South Korea",
+              "flag2": "https://d9np3dj86nsu2.cloudfront.net/image/6e2e4fb4088a35f8529018e3370ccfc8",
+              "time": 1529323200,
+              "place": "Nizhny Novgorod",
+              "lattitude": "56.2965°",
+              "longitude": "43.9361°"
+          },
+          {
+              "group": "Group G",
+              "team1": "Belgium ",
+              "flag1": "http://www.flagz.co.nz/wp-content/uploads/2013/08/belgium-flag.png",
+              "team2": "Panama",
+              "flag2": "https://www.crwflags.com/fotw/images/p/pa-1903.gif",
+              "time": 1529334000,
+              "place": "Sochi",
+              "lattitude": "43.6028°",
+              "longitude": "39.7342°"
+          },
+          {
+              "group": "Group G",
+              "team1": "Tunisia",
+              "flag1": "https://www.indexmundi.com/flags/ts-lgflag.gif",
+              "team2": "England",
+              "flag2": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png",
+              "time": 1529344800,
+              "place": "Volgograd",
+              "lattitude": "48.7080°",
+              "longitude": "44.5133°"
+          }
+        ]
+      },
+      {
+        "date": "Tuesday 19 June",
+        "matches": [
+          {
+              "group": "Group H",
+              "team1": "Colombia",
+              "flag1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSi_5xb54xPRq8C4XjMltf5gaOhRc5PjRt6KkeuNDfiq7-IzAp",
+              "team2": "Japan",
+              "flag2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuDlANl7Z-85rSduZPMkYAQXDW7EV8JvlF0UIJY-qRoFLxQWBG8w",
+              "time": 1529409600,
+              "place": "Saransk",
+              "lattitude": "54.2000°",
+              "longitude": "45.1745°"
+          },
+          {
+              "group": "Group H",
+              "team1": "Poland ",
+              "flag1": "https://www.indexmundi.com/flags/pl-lgflag.gif",
+              "team2": "Senegal",
+              "flag2": "http://flagpedia.net/data/flags/ultra/sn.png",
+              "time": 1529420400,
+              "place": "Moscow (Spartak)",
+              "lattitude": "55.7558°",
+              "longitude": "37.6173°"
+          },
+          {
+              "group": "Group A",
+              "team1": "Russia",
+              "flag1": "https://cdn.britannica.com/42/3842-004-C238EDD3.jpg",
+              "team2": "Egypt",
+              "flag2": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/255px-Flag_of_Egypt.svg.png",
+              "time": 1529431200,
+              "place": "St Petersburg",
+              "lattitude": "59.9343°",
+              "longitude": "30.3351°"
+          }
+        ]
+      },
+      {
+        "date": "Wednesday 20 June",
+        "matches": [
+          {
+              "group": "Group B",
+              "team1": "Portugal",
+              "flag1": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/255px-Flag_of_Portugal.svg.png",
+              "team2": "Morocco",
+              "flag2": "https://libertyflagandbanner.com/wp-content/uploads/2015/08/morocco-flag.jpg",
+              "time": 1529496000,
+              "place": "Moscow (Luzhniki)",
+              "lattitude": "55.7158°",
+              "longitude": "37.5537°"
+          },
+          {
+              "group": "Group A",
+              "team1": "Uruguay",
+              "flag1": "http://flags.fmcdn.net/data/flags/w580/uy.png",
+              "team2": "Saudi Arabia",
+              "flag2": "http://flagpedia.net/data/flags/big/sa.png",
+              "time": 1529506800,
+              "place": "Rostov-on-Don",
+              "lattitude": "47.2357°",
+              "longitude": "39.7015°"
+          },
+          {
+              "group": "Group B",
+              "team1": "Iran",
+              "flag1": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_Iran_%28official%29.svg/2000px-Flag_of_Iran_%28official%29.svg.png",
+              "team2": "Spain",
+              "flag2": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png",
+              "time": 1529517600,
+              "place": "Kazan",
+              "lattitude": "55.8304°",
+              "longitude": "49.0661°"
+          }
+        ]
+      },
+      {
+        "date": "Thursday 21 June",
+        "matches": [
+          {
+              "group": "Group C",
+              "team1": "Denmark",
+              "flag1": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/2000px-Flag_of_Denmark.svg.png",
+              "team2": "Australia",
+              "flag2": "https://upload.wikimedia.org/wikipedia/en/b/b9/Flag_of_Australia.svg",
+              "time": 1529582400,
+              "place": "Samara",
+              "lattitude": "53.2415°",
+              "longitude": "50.2212°"
+          },
+          {
+              "group": "Group C",
+              "team1": "France",
+              "flag1": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/255px-Flag_of_France.svg.png",
+              "team2": "Peru",
+              "flag2": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/2000px-Flag_of_Peru_%28state%29.svg.png",
+              "time": 1529593200,
+              "place": "Ekaterinburg",
+              "lattitude": "56.8389°",
+              "longitude": "60.6057°"
+          },
+          {
+              "group": "Group D",
+              "team1": "Argentina",
+              "flag1": "http://nationalflagstore.com/wp-content/uploads/2014/07/argentina-flag1.jpg",
+              "team2": "Croatia",
+              "flag2": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/2000px-Flag_of_Croatia.svg.png",
+              "time": 1529604000,
+              "place": "Nizhny Novgorod",
+              "lattitude": "56.2965°",
+              "longitude": "43.9361°"
+          }
+        ]
+      },
+      {
+        "date": "Friday 22 June",
+        "matches": [
+          {
+              "group": "Group E",
+              "team1": "Brazil",
+              "flag1": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
+              "team2": "Costa Rica",
+              "flag2": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/2000px-Flag_of_Costa_Rica_%28state%29.svg.png",
+              "time": 1529668800,
+              "place": "St Petersburg",
+              "lattitude": "59.9343°",
+              "longitude": "30.3351°"
+          },
+          {
+              "group": "Group D",
+              "team1": "Nigeria",
+              "flag1": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/2000px-Flag_of_Nigeria.svg.png",
+              "team2": "Iceland",
+              "flag2": "http://flags.fmcdn.net/data/flags/w580/is.png",
+              "time": 1529679600,
+              "place": "Volgograd",
+              "lattitude": "48.7080°",
+              "longitude": "44.5133°"
+          },
+          {
+              "group": "Group E",
+              "team1": "Serbia",
+              "flag1": "http://flagpedia.net/data/flags/ultra/rs.png",
+              "team2": "Switzerland",
+              "flag2": "https://static.webshopapp.com/shops/031683/files/069009574/image.jpg",
+              "time": 1529690400,
+              "place": "Kaliningrad",
+              "lattitude": "54.7104°",
+              "longitude": "20.4522°"
+          }
+        ]
+      },
+      {
+        "date": "Saturday 23 June",
+        "matches": [
+          {
+              "group": "Group G",
+              "team1": "Belgium",
+              "flag1": "http://www.flagz.co.nz/wp-content/uploads/2013/08/belgium-flag.png",
+              "team2": "Tunisia",
+              "flag2": "https://www.indexmundi.com/flags/ts-lgflag.gif",
+              "time": 1529755200,
+              "place": "Moscow (Spartak)",
+              "lattitude": "55.7558°",
+              "longitude": "37.6173°"
+          },
+          {
+              "group": "Group F",
+              "team1": "South Korea",
+              "flag1": "https://d9np3dj86nsu2.cloudfront.net/image/6e2e4fb4088a35f8529018e3370ccfc8",
+              "team2": "Mexico",
+              "flag2": "https://cdn3.bigcommerce.com/s-ey7tq/products/3421/images/4744/FIMEX-2__96295.1407858956.380.380.jpg?c=2",
+              "time": 1529766000,
+              "place": "Rostov-on-Don",
+              "lattitude": "47.2357°",
+              "longitude": "39.7015°"
+          },
+          {
+              "group": "Group F",
+              "team1": "Germany",
+              "flag1": "http://flags.fmcdn.net/data/flags/w580/de.png",
+              "team2": "Sweden",
+              "flag2": "https://static.wixstatic.com/media/71a137_ffeb15d383bc4899b80a62da2a51a151.jpg/v1/fill/w_498,h_339,al_c,q_90/file.jpg",
+              "time": 1529776800,
+              "place": "Sochi",
+              "lattitude": "43.6028°",
+              "longitude": "39.7342°"
+          }
+        ]
+      },
+      {
+        "date": "Saturday 24 June",
+        "matches": [
+          {
+              "group": "Group G",
+              "team1": "England",
+              "flag1": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png",
+              "team2": "Panama",
+              "flag2": "https://www.crwflags.com/fotw/images/p/pa-1903.gif",
+              "time": 1529841600,
+              "place": "Nizhny Novgorod",
+              "lattitude": "56.2965°",
+              "longitude": "43.9361°"
+          },
+          {
+              "group": "Group H",
+              "team1": "Japan",
+              "flag1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuDlANl7Z-85rSduZPMkYAQXDW7EV8JvlF0UIJY-qRoFLxQWBG8w",
+              "team2": "Senegal",
+              "flag2": "http://flagpedia.net/data/flags/ultra/sn.png",
+              "time": 1529852400,
+              "place": "Ekaterinburg",
+              "lattitude": "56.8389°",
+              "longitude": "60.6057°"
+          },
+          {
+              "group": "Group H",
+              "team1": "Poland",
+              "flag1": "https://www.indexmundi.com/flags/pl-lgflag.gif",
+              "team2": "Colombia",
+              "flag2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSi_5xb54xPRq8C4XjMltf5gaOhRc5PjRt6KkeuNDfiq7-IzAp",
+              "time": 1529863200,
+              "place": "Kazan",
+              "lattitude": "55.8304°",
+              "longitude": "49.0661°"
+          }
+        ]
+      },
+      {
+        "date": "Monday 25 June",
+        "matches": [
+          {
+              "group": "Group A",
+              "team1": "Uruguay",
+              "flag1": "http://flags.fmcdn.net/data/flags/w580/uy.png",
+              "team2": "Russia",
+              "flag2": "https://cdn.britannica.com/42/3842-004-C238EDD3.jpg",
+              "time": 1529935200,
+              "place": "Samara",
+              "lattitude": "53.2415°",
+              "longitude": "50.2212°"
+          },
+          {
+              "group": "Group A",
+              "team1": "Saudi Arabia",
+              "flag1": "http://flagpedia.net/data/flags/big/sa.png",
+              "team2": "Egypt",
+              "flag2": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/255px-Flag_of_Egypt.svg.png",
+              "time": 1529935200,
+              "place": "Volgograd",
+              "lattitude": "48.7080°",
+              "longitude": "44.5133°"
+          },
+          {
+              "group": "Group B",
+              "team1": "Spain",
+              "flag1": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png",
+              "team2": "Morocco",
+              "flag2": "https://libertyflagandbanner.com/wp-content/uploads/2015/08/morocco-flag.jpg",
+              "time": 1529949600,
+              "place": "Kaliningrad",
+              "lattitude": "54.7104°",
+              "longitude": "20.4522°"
+          },
+          {
+              "group": "Group B",
+              "team1": "Iran",
+              "flag1": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_Iran_%28official%29.svg/2000px-Flag_of_Iran_%28official%29.svg.png",
+              "team2": "Portugal",
+              "flag2": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/255px-Flag_of_Portugal.svg.png",
+              "time": 1529949600,
+              "place": "Saransk",
+              "lattitude": "54.2000°",
+              "longitude": "45.1745°"
+          }
+        ]
+      },
+      {
+        "date": "Tuesday 26 June",
+        "matches": [
+          {
+              "group": "Group C",
+              "team1": "Denmark",
+              "flag1": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/2000px-Flag_of_Denmark.svg.png",
+              "team2": "France",
+              "flag2": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/255px-Flag_of_France.svg.png",
+              "time": 1530021600,
+              "place": "Moscow (Luzhniki)",
+              "lattitude": "55.7158°",
+              "longitude": "37.5537°"
+          },
+          {
+              "group": "Group C",
+              "team1": "Australia",
+              "flag1": "https://upload.wikimedia.org/wikipedia/en/b/b9/Flag_of_Australia.svg",
+              "team2": "Peru",
+              "flag2": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/2000px-Flag_of_Peru_%28state%29.svg.png",
+              "time": 1530021600,
+              "place": "Sochi",
+              "lattitude": "43.6028°",
+              "longitude": "39.7342°"
+          },
+          {
+              "group": "Group D",
+              "team1": "Nigeria",
+              "flag1": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/2000px-Flag_of_Nigeria.svg.png",
+              "team2": "Argentina",
+              "flag2": "http://nationalflagstore.com/wp-content/uploads/2014/07/argentina-flag1.jpg",
+              "time": 1530036000,
+              "place": "St Petersburg",
+              "lattitude": "59.9343°",
+              "longitude": "30.3351°"
+          },
+          {
+              "group": "Group D",
+              "team1": "Iceland",
+              "flag1": "http://flags.fmcdn.net/data/flags/w580/is.png",
+              "team2": "Croatia",
+              "flag2": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/2000px-Flag_of_Croatia.svg.png",
+              "time": 1530036000,
+              "place": "Rostov-on-Don",
+              "lattitude": "47.2357°",
+              "longitude": "39.7015°"
+          }
+        ]
+      },
+      {
+        "date": "Wednesday 27 June",
+        "matches": [
+          {
+              "group": "Group F",
+              "team1": "South Korea",
+              "flag1": "https://d9np3dj86nsu2.cloudfront.net/image/6e2e4fb4088a35f8529018e3370ccfc8",
+              "team2": "Germany",
+              "flag2": "http://flags.fmcdn.net/data/flags/w580/de.png",
+              "time": 1530108000,
+              "place": "Kazan",
+              "lattitude": "55.8304°",
+              "longitude": "49.0661°"
+          },
+          {
+              "group": "Group F",
+              "team1": "Mexico",
+              "flag1": "https://cdn3.bigcommerce.com/s-ey7tq/products/3421/images/4744/FIMEX-2__96295.1407858956.380.380.jpg?c=2",
+              "team2": "Sweden",
+              "flag2": "https://static.wixstatic.com/media/71a137_ffeb15d383bc4899b80a62da2a51a151.jpg/v1/fill/w_498,h_339,al_c,q_90/file.jpg",
+              "time": 1530108000,
+              "place": "Ekaterinburg",
+              "lattitude": "56.8389°",
+              "longitude": "60.6057°"
+          },
+          {
+              "group": "Group E",
+              "team1": "Serbia",
+              "flag1": "http://flagpedia.net/data/flags/ultra/rs.png",
+              "team2": "Brazil",
+              "flag2": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
+              "time": 1530122400,
+              "place": "Moscow (Spartak)",
+              "lattitude": "55.7558°",
+              "longitude": "37.6173°"
+          },
+          {
+              "group": "Group E",
+              "team1": "Switzerland",
+              "flag1": "https://static.webshopapp.com/shops/031683/files/069009574/image.jpg",
+              "team2": "Costa Rica",
+              "flag2": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/2000px-Flag_of_Costa_Rica_%28state%29.svg.png",
+              "time": 1530122400,
+              "place": "Nizhny Novgorod",
+              "lattitude": "56.2965°",
+              "longitude": "43.9361°"
+          }
+        ]
+      },
+      {
+        "date": "Thursday 28 June",
+        "matches": [
+          {
+              "group": "Group H",
+              "team1": "Japan",
+              "flag1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuDlANl7Z-85rSduZPMkYAQXDW7EV8JvlF0UIJY-qRoFLxQWBG8w",
+              "team2": "Poland",
+              "flag2": "https://www.indexmundi.com/flags/pl-lgflag.gif",
+              "time": 1530194400,
+              "place": "Volgograd",
+              "lattitude": "48.7080°",
+              "longitude": "44.5133°"
+          },
+          {
+              "group": "Group H",
+              "team1": "Senegal",
+              "flag1": "http://flagpedia.net/data/flags/ultra/sn.png",
+              "team2": "Colombia",
+              "flag2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSi_5xb54xPRq8C4XjMltf5gaOhRc5PjRt6KkeuNDfiq7-IzAp",
+              "time": 1530194400,
+              "place": "Samara",
+              "lattitude": "53.2415°",
+              "longitude": "50.2212°"
+          },
+          {
+              "group": "Group G",
+              "team1": "England",
+              "flag1": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png",
+              "team2": "Belgium",
+              "flag2": "http://www.flagz.co.nz/wp-content/uploads/2013/08/belgium-flag.png",
+              "time": "1530208800",
+              "place": "Kaliningrad",
+              "lattitude": "54.7104°",
+              "longitude": "20.4522°"
+          },
+          {
+              "group": "Group G",
+              "team1": "Panama",
+              "flag1": "https://www.crwflags.com/fotw/images/p/pa-1903.gif",
+              "team2": "Tunisia",
+              "flag2": "https://www.indexmundi.com/flags/ts-lgflag.gif",
+              "time": 1530208800,
+              "place": "Saransk",
+              "lattitude": "54.2000°",
+              "longitude": "45.1745°"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Round of 16",
+    "schedule": [
+      {
+        "date": "Saturday 30 June",
+        "matches": [
+          {
+              "group": "Super 16 M1",
+              "team1": "France",
+              "flag1": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/255px-Flag_of_France.svg.png",
+              "team2": "Argentina",
+              "flag2": "http://nationalflagstore.com/wp-content/uploads/2014/07/argentina-flag1.jpg",
+              "time": 1530367200,
+              "place": "Kazan",
+              "lattitude": "55.8304°",
+              "longitude": "49.0661°"
+          },
+          {
+              "group": "Super 16 M2",
+              "team1": "Uruguay",
+              "flag1": "http://flags.fmcdn.net/data/flags/w580/uy.png",
+              "team2": "Portugal",
+              "flag2": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/255px-Flag_of_Portugal.svg.png",
+              "time": 1530381600,
+              "place": "Sochi",
+              "lattitude": "43.6028°",
+              "longitude": "39.7342°"
+          }
+        ]
+      },
+      {
+        "date": "Sunday 1 July",
+        "matches": [
+          {
+              "group": "Super 16 M3",
+              "team1": "Spain",
+              "flag1": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png",
+              "team2": "Russia",
+              "flag2": "https://cdn.britannica.com/42/3842-004-C238EDD3.jpg",
+              "time": 1530453600,
+              "place": "Moscow (Luzhniki)",
+              "lattitude": "55.7158°",
+              "longitude": "37.5537°"
+          },
+          {
+              "group": "Super 16 M4",
+              "team1": "Croatia",
+              "flag1": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/2000px-Flag_of_Croatia.svg.png",
+              "team2": "Denmark",
+              "flag2": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/2000px-Flag_of_Denmark.svg.png",
+              "time": 1530468000,
+              "place": "Nizhny Novgorod",
+              "lattitude": "56.2965°",
+              "longitude": "43.9361°"
+          }
+        ]
+      },
+      {
+        "date": "Monday 2 July",
+        "matches": [
+          {
+              "group": "Super 16 M5",
+              "team1": "Brazil",
+              "flag1": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
+              "team2": "Mexico",
+              "flag2": "https://cdn3.bigcommerce.com/s-ey7tq/products/3421/images/4744/FIMEX-2__96295.1407858956.380.380.jpg?c=2",
+              "time": 1530540000,
+              "place": "Samara",
+              "lattitude": "53.2415°",
+              "longitude": "50.2212°"
+          },
+          {
+              "group": "Super 16 M6",
+              "team1": "Belgium",
+              "flag1": "http://www.flagz.co.nz/wp-content/uploads/2013/08/belgium-flag.png",
+              "team2": "Japan",
+              "flag2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuDlANl7Z-85rSduZPMkYAQXDW7EV8JvlF0UIJY-qRoFLxQWBG8w",
+              "time": 1530554400,
+              "place": "Rostov-on-Don",
+              "lattitude": "47.2357°",
+              "longitude": "39.7015°"
+          }
+        ]
+      },
+      {
+        "date": "Tuesday 3 July",
+        "matches": [
+          {
+              "group": "Super 16 M7",
+              "team1": "Sweden",
+              "flag1": "https://static.wixstatic.com/media/71a137_ffeb15d383bc4899b80a62da2a51a151.jpg/v1/fill/w_498,h_339,al_c,q_90/file.jpg",
+              "team2": "Switzerland",
+              "flag2": "https://static.webshopapp.com/shops/031683/files/069009574/image.jpg",
+              "time": 1530626400,
+              "place": "St Petersburg",
+              "lattitude": "59.9343°",
+              "longitude": "30.3351°"
+          },
+          {
+              "group": "Super 16 M8",
+              "team1": "Colombia",
+              "flag1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSi_5xb54xPRq8C4XjMltf5gaOhRc5PjRt6KkeuNDfiq7-IzAp",
+              "team2": "England",
+              "flag2": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png",
+              "time": 1530640800,
+              "place": "Moscow (Spartak)",
+              "lattitude": "42.8798°",
+              "longitude": "74.5979°"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Quarter-finals",
+    "schedule": [
+      {
+        "date": "Friday 6 July",
+        "matches": [
+          {
+            "group": "QF1",
+            "team1": "Super 16 M1 Winner",
+            "flag1": "",
+            "team2": "Super 16 M2 Winner",
+            "flag2": "",
+            "time": 1530885600,
+            "place": "Nizhny Novgorod",
+            "lattitude": "56.2965°",
+            "longitude": "43.9361°"
+          },
+          {
+            "group": "QF2",
+            "team1": "Super 16 M5 Winner",
+            "flag1": "",
+            "team2": "Super 16 M6 Winner",
+            "flag2": "",
+            "time": 1530900000,
+            "place": "Kazan",
+            "lattitude": "55.8304°",
+            "longitude": "49.0661°"
+          }
+        ]
+      },
+      {
+        "date": "Saturday 7 July",
+        "matches": [
+          {
+            "group": "QF3",
+            "team1": "Super 16 M7 Winner",
+            "flag1": "",
+            "team2": "Super 16 M8 Winner",
+            "flag2": "",
+            "time": 1530972000,
+            "place": "Samara",
+            "lattitude": "53.2415°",
+            "longitude": "50.2212°"
+          },
+          {
+            "group": "QF4",
+            "team1": "Super 16 M3 Winner",
+            "flag1": "",
+            "team2": "Super 16 M4 Winner",
+            "flag2": "",
+            "time": 1530986400,
+            "place": "Sochi",
+            "lattitude": "43.6028°",
+            "longitude": "39.7342°"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Semi-Finals",
+    "schedule": [
+      {
+        "date": "Tuesday 10 July",
+        "matches": [
+          {
+            "group": "SF1",
+            "team1": "QF1 Winner",
+            "flag1": "",
+            "team2": "QF2 Winner",
+            "flag2": "",
+            "time": 1531245600,
+            "place": "St Petersburg",
+            "lattitude": "59.9343°",
+            "longitude": "30.3351°"
+          }
+        ]
+      },
+      {
+        "date": "Wednesday 11 July",
+        "matches": [
+          {
+            "group": "SF2",
+            "team1": "QF3 Winner",
+            "flag1": "",
+            "team2": "QF4 Winner",
+            "flag2": "",
+            "time": 1531332000,
+            "place": "Moscow (Luzhniki)",
+            "lattitude": "55.7158°",
+            "longitude": "37.5537°"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Third place play-off",
+    "schedule": [
+      {
+        "date": "Saturday 14 July",
+        "matches": [
+          {
+            "group": "3rd place Match",
+            "team1": "SF1 Loser",
+            "flag1": "",
+            "team2": "SF2 Loser",
+            "flag2": "",
+            "time": 1531576800,
+            "place": "St Petersburg",
+            "lattitude": "59.9343°",
+            "longitude": "30.3351°"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Final",
+    "schedule": [
+      {
+        "date": "Sunday 15 July",
+        "matches": [
+          {
+            "group": "The Final",
+            "team1": "SF1 Winner",
+            "flag1": "",
+            "team2": "SF2 Winner",
+            "flag2": "",
+            "time": 1531666800,
+            "place": "Moscow (Luzhniki)",
+            "lattitude": "55.7158°",
+            "longitude": "37.5537°"
+          }
+        ]
+      }
+    ]
+  }
+]
