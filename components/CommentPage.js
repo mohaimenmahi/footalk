@@ -19,7 +19,7 @@ export default class CommentPage extends React.Component {
     onHandleSubmit(e) {
         e.preventDefault();
         let comment = this.state.newComment;
-        this.setState({ newComment: ' '}); // after submitting, the textfield will be empty
+        e.target.value = '';
         let newArr = this.state.comments.slice();
         newArr.push(comment); // pushing a new comment on the comments[] state
         this.setState({comments: newArr});
@@ -47,9 +47,11 @@ export default class CommentPage extends React.Component {
                         title="Submit"
                         onPress={() => this.onHandleSubmit}
                     />
-                    {
-                        this.state.comments.map((com, i) => <Text key={i}>{com}</Text>) // showing new + previous comment. this would be in the top of the page
-                    }
+                    <View>
+                        {
+                            this.state.comments.map((com, i) => <Text key={i}>{com}</Text>) // showing new + previous comment. this would be in the top of the page
+                        }
+                    </View>
                 </View>
             </ScrollView>
         );

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {AppRegistry, View, Text } from 'react-native';
+import {AppRegistry } from 'react-native';
 import { createBottomTabNavigator, createStackNavigator } from 'react-navigation';
 import ShowDate from './components/ShowDate';
 import ScheduleScreen from './components/ScheduleScreen';
@@ -33,7 +33,9 @@ const RootStack = createBottomTabNavigator(
             inactiveBackgroundColor: '#9900cc',
             activeTintColor: '#FFFFFF',
             inactiveTintColor: '#FFFFFF',
-
+        },
+        labelStyle: {
+            fontSize: 18
         }
     }
 );

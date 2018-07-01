@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { AppRegistry, View, ScrollView } from 'react-native';
-import ShowDate from './ShowDate';
 import { ListItem } from 'react-native-elements';
 import ScheduleJson from '../data/schedule.json';
 
@@ -28,7 +27,8 @@ export default class ScheduleScreen extends React.Component {
                                     title={item.title}
                                     onPress={() => {
                                         this.props.navigation.navigate('Dates', {
-                                            itemId: i,
+                                            scheduledMatch: item.schedule,
+                                            navBar: item.title
                                         });
                                     }}
                                 />

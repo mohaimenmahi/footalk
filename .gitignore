@@ -4,4 +4,4 @@ npm-debug.*
 yarn-error.log
 yarn.lock
 data/copy.json
-.idea/workspace.xml
+.idea/*
